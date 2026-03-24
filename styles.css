@@ -1,0 +1,111 @@
+body{
+    background-color: #7EACB5;
+    
+}
+
+p{
+    line-height: 2.3;
+}
+
+
+.navBar{
+    margin-top: 25px;
+    margin-left: 115px;
+    margin-right: 90px;
+    
+}
+
+.align-to-center{
+    text-align: center;
+}
+    
+.nav-tabs .nav-link {
+    color: #BF4646; 
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #BF4646;
+    color: white !important; 
+    border-color: #BF4646;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #BF4646 !important;
+}
+
+.tab-content {
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 6px #0000000d;
+}
+
+#content {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #FFF4EA;
+    background-image: none; 
+    padding: 40px; 
+    border-left: 30px solid #2a2a2a; 
+    border-radius: 3px 15px 15px 3px; 
+    box-shadow: 
+        inset 6px 0 8px rgba(0,0,0,0.1),
+        4px 4px 0px #EDDCC6, 
+        8px 8px 0px #dbcebf, 
+        15px 15px 25px rgba(0,0,0,0.25);
+}
+
+#row {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+    flex-direction: row;
+}
+
+#footer{
+    background-color: #2a2a2a;
+    margin-top: 50px;
+}
+
+.textFooter{
+    text-align: center;
+    Color: #f8f9fa; 
+}
+
+.linkFooter{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }}
+
+/* linkedin */
+.fa-brands{
+    font-size: 25px;
+    color: #BF4646;
+}
+.fa-brands:hover{
+    font-size: 25px;
+    color: #f8f9fa;
+    animation-name: bounce;
+}
+
+/* fa-envelope */
+.fa-solid{
+    font-size: 25px;
+    color: #BF4646;
+}
+.fa-solid:hover{
+    font-size: 25px;
+    color: #f8f9fa;
+    animation-name: bounce;
+}
